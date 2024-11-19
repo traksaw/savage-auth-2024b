@@ -22,7 +22,7 @@ module.exports = function(app, passport, db) {
     app.get('/logout', function(req, res) {
         req.logout(() => {
           console.log('User has logged out!')
-        });
+        43});
         res.redirect('/');
     });
 
