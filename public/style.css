@@ -5,3 +5,12 @@ body{
 img{
   height: 200px;
 }
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
